@@ -70,7 +70,17 @@ text-decoration: none
 
 #sethTopLogo
 {
+	float: left;
+	margin-left: 40px;
 	display: block;
-	max-width: 120px;
-	margin: 0 auto;
+	max-width: 100px;
+
 }
+
+#mainNav
+{
+	text-align: right;
+	margin-right: 100px;
+	margin-top: 40px;
+	list-style-type: none;
+	text-align: inline;
