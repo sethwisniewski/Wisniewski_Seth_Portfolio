@@ -10,7 +10,6 @@ font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Gran
 font-weight: normal;
 margin: 0;
 padding: 0;
-text-align: center;
 color: #000;
 }
 
@@ -20,6 +19,7 @@ p {
 	margin: 0;
 	padding: 0;
 	color: #000;
+	text-align: left;
 
 }
 
@@ -27,7 +27,7 @@ h1 {
 	font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: normal;
 	margin: 0;
-	padding: 0;
+	padding-top: 90px;
 	color: #4de9ff;
 }
 
@@ -73,9 +73,10 @@ text-decoration: none
 	margin: 0 auto;
 }
 
-#enterButton .button
+.input-group-button
 {
-	background: #4de9ff;
+	color: #4de9ff;
+text-align: center;
 }
 
 #enterButton .button:hover
@@ -116,4 +117,13 @@ text-decoration: none
 {
 	margin-right: 300px;
 	text-align: inline;
+}
+
+#contactTitle
+{
+	margin-left: 335px;
+}
+
+#homeText{
+	text-align: center;
 }
