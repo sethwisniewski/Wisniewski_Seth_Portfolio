@@ -5,13 +5,30 @@
 	text-align:center;
 }
 
-body, h1, p {
+body {
 font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
 font-weight: normal;
 margin: 0;
 padding: 0;
 text-align: center;
 color: #000;
+}
+
+p {
+	font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	color: #000;
+
+}
+
+h1 {
+	font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	color: #4de9ff;
 }
 
 .container {
@@ -77,10 +94,26 @@ text-decoration: none
 
 }
 
-#mainNav
+.mainNav
 {
 	text-align: right;
 	margin-right: 100px;
 	margin-top: 40px;
 	list-style-type: none;
 	text-align: inline;
+}
+
+#sethImage
+{
+	float: left;
+	margin-top: 100px;
+	margin-left: 300px;
+	margin-right: 80px;
+	max-width: 500px;
+}
+
+#aboutText
+{
+	margin-right: 300px;
+	text-align: inline;
+}
