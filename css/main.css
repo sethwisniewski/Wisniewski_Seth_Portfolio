@@ -124,6 +124,30 @@ text-align: center;
 	margin-left: 335px;
 }
 
-#homeText{
+#homeText
+{
 	text-align: center;
+}
+
+#imageText
+{
+	margin-left: 250px;
+}
+
+div.imageGallery {
+		padding-top: 20px;
+		margin: 30px;
+    float: left;
+    width: 300px;
+}
+
+div.imageGallery img {
+    width: 100%;
+    height: auto;
+		margin-left: 60px;
+}
+
+div.desc {
+    text-align: center;
+		margin-left: 120px;
 }
