@@ -129,25 +129,25 @@ text-align: center;
 	text-align: center;
 }
 
-#imageText
+#gallery
 {
+	margin-top: 60px;
 	margin-left: 250px;
 }
 
+
 div.imageGallery {
 		padding-top: 20px;
-		margin: 30px;
+		margin-right: 50px;
     float: left;
     width: 300px;
 }
 
 div.imageGallery img {
     width: 100%;
-    height: auto;
-		margin-left: 60px;
+    height: 180px;
 }
 
 div.desc {
     text-align: center;
-		margin-left: 120px;
 }
