@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST['email'])) {
+if(isset($_POST['regForm'])) {
    $email_to = "seth@sethwisniewski.com,sethwisniewski@gmail.com";
    $email_subject = "Contact Form Submission";
 
@@ -21,8 +21,8 @@ if(isset($_POST['email'])) {
     }
 
     $name = $_POST['name'];
-    $email_from = $_POST['email'];
-    $comments = $_POST['comments'];
+    $email_address = $_POST['email'];
+    $message = $_POST['message'];
 
     function clean_string($string) {
 
@@ -33,8 +33,8 @@ if(isset($_POST['email'])) {
     }
 
     $email_message .= "Name: ".clean_string($name)."\n";
-    $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Comments: ".clean_string($comments)."\n";
+    $email_message .= "Email: ".clean_string($email_address)."\n";
+    $email_message .= "Messag: ".clean_string($comments)."\n";
 
 $headers = 'From: '.$email_from."\r\n".
 
@@ -45,6 +45,7 @@ $headers = 'From: '.$email_from."\r\n".
 @mail($email_to, $email_subject, $email_message, $headers);
 
 ?>
+Thank you for your message! I'll get back to you as soon as possible.
 <?php
 
 }

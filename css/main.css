@@ -84,8 +84,6 @@ text-align: center;
 	background: #00cae6;
 }
 
-/*Header*/
-
 #sethTopLogo
 {
 	float: left;
@@ -107,7 +105,7 @@ text-align: center;
 #sethImage
 {
 	float: left;
-	margin-top: 100px;
+	margin-top: 160px;
 	margin-left: 300px;
 	margin-right: 80px;
 	max-width: 500px;
@@ -117,6 +115,7 @@ text-align: center;
 {
 	margin-right: 300px;
 	text-align: inline;
+	margin-top: 60px;
 }
 
 #contactTitle
@@ -135,7 +134,6 @@ text-align: center;
 	margin-left: 250px;
 }
 
-
 div.imageGallery {
 		padding-top: 20px;
 		margin-right: 50px;
@@ -150,4 +148,5 @@ div.imageGallery img {
 
 div.desc {
     text-align: center;
+		margin-bottom: 30px;
 }
