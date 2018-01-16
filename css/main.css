@@ -152,8 +152,8 @@ margin-top:20px;
 	z-index: auto;
 }
 #facebook:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
 #twitter
@@ -165,8 +165,8 @@ margin-top:20px;
 }
 
 #twitter:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
 
@@ -179,8 +179,8 @@ margin-top:20px;
 }
 
 #instagram:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
 
