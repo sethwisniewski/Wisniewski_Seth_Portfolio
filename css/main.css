@@ -79,7 +79,7 @@ text-decoration: none
 text-align: center;
 }
 
-#enterButton .button:hover
+.input-group-button:hover
 {
 	background: #00cae6;
 }
@@ -120,7 +120,12 @@ text-align: center;
 
 #contactTitle
 {
-	margin-left: 335px;
+	margin-left: 400px;
+}
+
+#registrationForm
+{
+	margin-left: 80px;
 }
 
 #homeText
@@ -132,6 +137,51 @@ text-align: center;
 {
 	margin-top: 60px;
 	margin-left: 250px;
+}
+
+.social-media
+{
+float: right;
+margin-right: 400px;
+}
+
+#facebook
+{
+margin-top:20px;
+	height: 80px;
+	z-index: auto;
+}
+#facebook:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+#twitter
+{
+	margin-top:20px;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+}
+
+#twitter:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+#instagram
+{
+	height: 80px;
+	position: absolute;
+	margin-top:140px;
+	z-index: 2;
+}
+
+#instagram:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 div.imageGallery {
